@@ -1,3 +1,24 @@
 :root {
+ --dark: #000000;
+ --secondary: #cc7400;
+ --lightText: #fff;
+ --lightTextSecondary: #ffffff99;
+ --background: #fff;
+ --darkSecondary: #015c92;
+}
 
+a{
+    text-decoration: none !important;
+    color: inherit;
+}
+
+.app{
+    width: 100%;
+    display: flex;
+}
+
+.app_container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }

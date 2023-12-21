@@ -1,0 +1,22 @@
+.mockup{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    z-index: 2;
+}
+
+.mockup_img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.mockup::after{
+    content: "";
+    position: absolute;
+    height: 50%;
+    width: 80%;
+    top: 30%;
+    background-color: var(--secondary);
+    z-index: -1;
+}

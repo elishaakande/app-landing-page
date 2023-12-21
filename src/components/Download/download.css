@@ -1,0 +1,21 @@
+#download{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--secondary);
+}
+
+.download_box{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0px;
+}
+
+.download_box_links{
+    display: flex;
+    gap: 20px;
+}

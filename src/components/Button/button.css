@@ -1,0 +1,29 @@
+
+.button{
+    outline: none;
+    border: none;
+    padding: 10px 16px;
+    position: relative;
+    cursor: pointer;
+}
+
+.button.light{
+    background-color: var(--background);
+    color: var(--dark);
+}
+
+.button.dark{
+    background-color: var(--dark);
+    color: var(--lightText);
+}
+
+.button::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--secondary);
+    top: 5px;
+    right: -5px;
+    z-index: -1;
+}
